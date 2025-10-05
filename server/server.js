@@ -1,11 +1,14 @@
 import http from "node:http"
 
+const PORT = 8000;
+
 const server = http.createServer( (req, res) => {
-    res.statusCode = 200;
-    res.setHeader("Content-Type", "text/html");
-    res.end("<html><body><h1>Hello World</h1></body></html>");
+
+    res.writeHead(200, {"Content-Type": "text/html"});
+    res.end("<html><body><h1>Server.js: This server is running on port 8000 </h1></body></html>");
 });
 
-server.listen(8000, () => {
+server.listen(PORT, () => {
     console.log("Server is running on port 8000");
 });
+ 
