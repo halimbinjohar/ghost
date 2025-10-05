@@ -1,0 +1,19 @@
+{
+  "name": "ghost",
+  "version": "1.0.0",
+  "description": "The website that display the scary stories from the user ",
+  "main": "main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halimbinjohar/ghost.git"
+  },
+  "author": "Halim Johar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halimbinjohar/ghost/issues"
+  },
+  "homepage": "https://github.com/halimbinjohar/ghost#readme"
+}
