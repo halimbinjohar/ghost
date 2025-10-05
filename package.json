@@ -5,10 +5,7 @@
   "main": "main.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
